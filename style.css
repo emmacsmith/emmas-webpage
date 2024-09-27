@@ -34,6 +34,59 @@ nav a:hover {
   text-decoration: underline;
 }
 
+footer{
+  background: color;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.navbar {
+  width: 100vw;
+  background-color: #59D9A1;
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.nav-item a {
+  font-size: 20px;
+  display: inline-block;
+  padding: 25px 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: white;
+}
+
+.nav-item:hover a {
+  color: #59D9A1;
+}
+
+.image-grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+}
+
+.image-grid img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Can be used to style the active navigation link. */
 [aria-current="page"] {
   text-decoration: underline;
